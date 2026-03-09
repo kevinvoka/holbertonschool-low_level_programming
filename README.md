@@ -1,102 +1,61 @@
-Holberton School - Low Level Programming
+# Holberton School — Low-Level Programming
 
-This repository contains C language projects covering fundamental and advanced programming concepts. Each directory focuses on a specific topic and set of skills.
+![Holberton](https://img.shields.io/badge/Holberton-School-red?style=flat-square) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c)
 
-1. argc_argv
+## Description
 
-Handling command-line arguments in C programs
+This repository contains projects in **C programming** focused on understanding how computers work at a low level. Topics range from basic syntax and data structures to memory management, pointers, and system calls.
 
-Using argc and argv to control program behavior
+## Projects
 
-2. doubly_linked_lists
+| Directory | Topic |
+|-----------|-------|
+| `0x00-hello_world` | Compilation process, `printf`, `puts` |
+| `0x01-variables_if_else_while` | Variables, conditions, loops |
+| `0x02-functions_nested_loops` | Functions, header files |
+| `0x03-debugging` | Debugging techniques |
+| `0x04-more_functions_nested_loops` | Advanced functions |
+| `0x05-pointers_arrays_strings` | Pointers & arrays |
+| `0x06-pointers_arrays_strings` | String manipulation |
+| `0x07-pointers_arrays_strings` | Advanced strings |
+| `0x08-recursion` | Recursive functions |
+| `0x09-static_libraries` | Static libraries (.a) |
+| `0x0A-argc_argv` | Command-line arguments |
+| `0x0B-malloc_free` | Dynamic memory allocation |
+| `0x0C-more_malloc_free` | Advanced malloc |
+| `0x0D-preprocessor` | Macros, preprocessor directives |
+| `0x0E-structures_typedef` | Structs and typedef |
+| `0x0F-function_pointers` | Function pointers |
+| `0x10-variadic_functions` | Variadic functions |
+| `0x12-singly_linked_lists` | Linked lists |
+| `0x13-more_singly_linked_lists` | Advanced linked lists |
+| `0x14-bit_manipulation` | Bitwise operations |
+| `0x15-file_io` | File I/O system calls |
 
-Creating and managing doubly linked lists
+## Learning Objectives
 
-Insertion, deletion, and traversal in both directions
+- Understand the C compilation pipeline (preprocessing → compiling → assembling → linking)
+- Master pointers, arrays, and memory management
+- Implement common data structures (linked lists, stacks, queues)
+- Use dynamic memory allocation (`malloc`, `free`, `realloc`, `calloc`)
+- Write efficient, clean C code following Betty coding style
 
-3. file_io
+## Technologies
 
-File handling with system calls: open, read, write, close
+| Tool | Version |
+|------|---------|
+| Ubuntu | 22.04 LTS |
+| GCC | 12.x |
+| Betty Linter | Latest |
+| Valgrind | 3.x |
 
-Working with file descriptors and permissions
+## Requirements
 
-4. function_pointers
+- Compiled with `gcc -Wall -Werror -Wextra -pedantic -std=gnu89`
+- Betty coding style enforced
+- No memory leaks (verified with Valgrind)
 
-Declaring and using pointers to functions
+## Author
 
-Callback functions and dynamic function calls
+**Kevin Voka** — [GitHub](https://github.com/kevinvoka)
 
-5. functions_nested_loops
-
-Defining and using functions in C
-
-Using nested loops for repetitive tasks
-
-6. hash_tables
-
-Implementing hash tables with arrays and linked lists
-
-Collision handling using chaining
-
-7. hello_world
-
-First C programs using printf and puts
-
-Introduction to compiling with gcc
-
-8. malloc_free
-
-Dynamic memory allocation using malloc
-
-Freeing allocated memory with free
-
-9. more_functions_nested_loops
-
-Advanced functions and loop usage
-
-Complex iteration patterns and logic
-
-10. more_malloc_free
-
-Advanced dynamic memory allocation
-
-Using calloc and realloc
-
-11. pointers_arrays_strings
-
-Working with pointers, arrays, and strings in C
-
-String manipulation and pointer arithmetic
-
-12. recursion
-
-Implementing functions that call themselves
-
-Base cases and recursive step logic
-
-13. singly_linked_lists
-
-Creating and managing singly linked lists
-
-Adding, deleting, and traversing nodes
-
-14. structures_typedef
-
-Defining and using struct data types
-
-Simplifying types with typedef
-
-15. variables_if_else_while
-
-Declaring variables and data types
-
-Conditional statements and loops (if, else, while)
-
-16. variadic_functions
-
-Functions with variable numbers of arguments
-
-Using stdarg.h macros: va_start, va_arg, va_end
-
-📌 Goal:
-This project builds strong foundations in C programming, data structures, memory management, algorithms, and system-level concepts.
